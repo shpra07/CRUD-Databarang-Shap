@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Filament\Resources\Jenis\Schemas;
+
+use Filament\Schemas\Schema;
+
+class JenisForm
+{
+    public static function configure(Schema $schema): Schema
+    {
+        return $schema
+            ->components([
+                //
+            ]);
+    }
+}
